@@ -19,7 +19,7 @@ const forecastItemsContainer = document.querySelector('.forecast-items-container
 const notFoundHeading = document.querySelector('.not-found-heading')
 const notFoundMessage = document.querySelector('.not-found-message')
 
-const apiKey = 'b43a8e584fb47627144af886850840c8'
+const apiKey = 'b444af886850840c8'
 
 searchBtn.addEventListener('click', () => {
     if (cityInput.value.trim() !== '') {
